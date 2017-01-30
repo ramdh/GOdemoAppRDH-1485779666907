@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Great Outdoors Analytics Page</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/nv.d3.css">
+</head>
+
+<script type="text/javascript" src="javascript/d3.min.js"></script>
+<script type="text/javascript" src="javascript/nv.d3.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="javascript/ui.js"></script>
+
+
+<body>
+
+
+	<div id="container" >
+		<div id="col_left">
+			<h1>Great Outdoors Stores</h1>
+			<h2>Shopper Analytics</h2>
+			<h4>Customers/zone (5 minute window)</h4>
+		</div>
+		<div id="col_right">
+			<img class="newappIcon"	src="images/ibm-bluemix-icon.png">
+			<h4 align="center">Powered by IBM Bluemix</h4>
+		</div>
+		
+	</div>
+
+
+
+	<!-- This is where the drop-down menu will be created -->
+	<div id=gui1>
+	<form name="gui1_form" id="gui1_form">
+	<label for="stores" class='ui_label'>Select Store</label>
+	
+	</form>
+	</div> <!-- end gui1 -->
+	
+	<!-- This is where the d3.js data representation will be written -->
+	<div id=data1>
+	<svg style='height:400px'> </svg>
+	
+	</div>
+
+
+
+	<div id="footer">
+		<p>Competitive Project Office &copy; 2016</p>
+		<!-- end #footer -->
+	</div>
+</body>
+
+</html>
